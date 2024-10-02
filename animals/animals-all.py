@@ -13,7 +13,7 @@ def post_animals():
   return json.dumps({"success": True}), 201
 
 @api.route('/api/animals', methods=['DELETE'])
-def post_animals():
+def delete_animals():
   return json.dumps({"success": True}), 202
 
 if __name__ == '__main__':

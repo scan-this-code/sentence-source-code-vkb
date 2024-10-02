@@ -13,7 +13,7 @@ def post_locations():
   return json.dumps({"success": True}), 201
 
 @api.route('/api/locations', methods=['DELETE'])
-def post_locations():
+def delete_locations():
   return json.dumps({"success": True}), 202
 
 if __name__ == '__main__':

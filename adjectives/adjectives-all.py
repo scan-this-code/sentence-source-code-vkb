@@ -13,7 +13,7 @@ def post_adjectives():
   return json.dumps({"success": True}), 201
 
 @api.route('/api/adjectives', methods=['DELETE'])
-def post_adjectives():
+def delete_adjectives():
   return json.dumps({"success": True}), 202
 
 if __name__ == '__main__':

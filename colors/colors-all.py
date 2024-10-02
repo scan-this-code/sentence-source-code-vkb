@@ -13,7 +13,7 @@ def post_colors():
   return json.dumps({"success": True}), 201
 
 @api.route('/api/colors', methods=['DELETE'])
-def post_colors():
+def delete_colors():
   return json.dumps({"success": True}), 202
 
 if __name__ == '__main__':
